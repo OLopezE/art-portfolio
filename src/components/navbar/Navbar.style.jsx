@@ -3,6 +3,10 @@ import styled from 'styled-components';
 const NavContainer = styled.div`
     width: 100%;
     height: 8rem;
+
+    @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const NavOptions = styled.div`

@@ -7,6 +7,10 @@ const AboutMeWrapper = styled.section`
   padding:6rem 10rem;
   gap: 4rem;
   align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const MyImage = styled.div`
@@ -20,6 +24,10 @@ const MyImage = styled.div`
 const DescriptiveText = styled.p`
   color: #d0cbb5;
   font-size: 1.75rem;
+
+  > strong {
+    font-size: 2.25rem;
+  }
 `;
 
 const TextWrapper = styled.div`

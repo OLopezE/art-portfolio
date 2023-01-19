@@ -1,9 +1,13 @@
 import React from 'react'
 
+import { BigAssTitle } from './Home.style';
+
 const Home = () => {
   return (
     <section>
-      <div></div>
+      <div>
+        <BigAssTitle>Cecilia Collazo</BigAssTitle>
+      </div>
     </section>
   );
 };
