@@ -1,8 +1,17 @@
 import React from 'react'
 
+import { ContactItem, ContactGrid } from './Contact.style';
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <ContactGrid>
+      <ContactItem>
+        <p>Instagram</p>
+      </ContactItem>
+      <ContactItem>
+        <p>Email</p>
+      </ContactItem>
+    </ContactGrid>
   );
 };
 
