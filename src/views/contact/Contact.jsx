@@ -7,9 +7,11 @@ const Contact = () => {
     <ContactGrid>
       <ContactItem>
         <p>Instagram</p>
+        <p>@ceciliacollazob</p>
       </ContactItem>
       <ContactItem>
         <p>Email</p>
+        <p>ceciciliacollazob@hotmail.com</p>
       </ContactItem>
     </ContactGrid>
   );

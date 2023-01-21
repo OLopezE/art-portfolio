@@ -11,8 +11,7 @@ const NavContainer = styled.div`
 
 const NavOptions = styled.div`
     background-color: #436f60;
-    border-bottom: 0.5rem solid #436f60;
-    width: 100%;
+    border: 0.5rem solid #436f60;
     height: 100%;
     display: flex;
     gap: 0.5rem;
